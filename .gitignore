@@ -12,7 +12,6 @@ target/
 
 # Maven
 .mvn/timing.properties
-.mvn/wrapper/maven-wrapper.properties
 
 # STS (Spring Tool Suite)
 .apt_generated
@@ -57,3 +56,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local database data (docker-compose bind mount)
+db-data/

@@ -1,0 +1,13 @@
+services:
+  database:
+    image: "postgres:16-alpine"
+    ports:
+      - "5432:5432"
+
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: earthquake_detector_dev_db
+
+volumes:
+    postgres_data:
