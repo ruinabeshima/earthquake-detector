@@ -18,7 +18,7 @@ import java.util.List;
     {
         "features": [
         {
-            "id": "us7000abcd",
+            "id": "us7000",
             "properties": {
                 "mag": 4.2,
                 "place": "10km N of Somewhere",
